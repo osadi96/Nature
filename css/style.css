@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+.box{
+    padding: 60px;
+    text-align: center;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    color: rgb(6, 6, 7);
+    font-family: "Lobster", sans-serif;
+}
+
+.navbar-brand :hover{
+    color: rgb(23, 4, 105);
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Cormorant Garamond", serif;
+    font-size: large;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    margin-right: -340px;
+    outline: brown;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    border-radius: 50px;
+    outline: none;
+    background: brown;
+    color: white;
+    font-weight: 700;
+    margin-left: 300px;
+}
+
+.main{
+    background: url("../img/img2.jpg")no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(10, 179, 10);
+}
+
+.btn1{
+    height: 45px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: brown;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.btn2{
+    background-color: brown;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    color: white;
+    width: 200px;
+}
+
+.apple{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../img/woappple.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.apple h1{
+    text-transform: uppercase;
+    font-family: "Lobster", sans-serif;
+}
+
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    border-radius: 30px;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news::placeholder{
+    color: white;
+
+}
+
+.news{
+    background-color: black;
+}
+
+.news h1{
+    color: white;
+}
+
+.btn3{
+    background-color: rgb(3, 3, 3);
+    border-radius: 30px;
+    border-color: white;
+    font-weight: 700;
+    color: white;
+    width: 100px;
+}
+
+.details h5{
+    font-size: large;
+    color: blueviolet;
+}
+
+.news p{
+    margin: 0%;
+    color: white;
+}
+
+.news h5{
+    color: white;
+    font-size: small;
+}
+
+.social i {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.social i:hover {
+    color: red;
+}
+
+.line{
+    color: white;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
